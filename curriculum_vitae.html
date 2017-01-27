@@ -7,16 +7,19 @@ permalink: /curriculum-vitae/
   <div id="contact-details">
     <h2>Contact Details</h2><p>
     <div id="left-contact", style="float: left">
-      <a href="mailto:roberto@rflagreca.me">roberto@rflagreca.me</a><br>
-      <a href="http://github.com/rflagreca">GitHub</a><br>
-      <a href="http://uk.linkedin.com/in/rlagreca1">LinkedIn</a>
+      {% if site.email %}
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      {% endif %}
+      <a href="http://github.com/rflagreca">GitHub (rflagreca)</a><br>
+      <a href="http://uk.linkedin.com/in/rlagreca1">LinkedIn (rlagreca1)</a>
     </p></div>
 
     <div id="right-contact", style="float: right"><p>16 Margaret Rose Crescent<br>
       Edinburgh<br>
       EH10 7EZ<br>
-      Telephone: 0131 445 2959<br>
-      Mobile: 07436773825<br>
+      {% if site.phone %}
+        Tel: <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+      {% endif %}
     </p></div>
   </div>
 
