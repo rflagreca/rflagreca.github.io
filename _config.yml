@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Roberto La Greca
 email: roberto@rflagreca.me
-phone: (+44) 7436773825
+phone: (+44) 7308153611
 description: > # this means to ignore newlines until "baseurl:"
   Roberto La Greca's personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rflagreca.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rflagreca.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rflagreca
 github_username:  rflagreca
 

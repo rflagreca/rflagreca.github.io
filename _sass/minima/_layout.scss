@@ -157,7 +157,14 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding-top: $base-unit * 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: calc(25%);
+  background-color: #F9F8F6;
 }
 
 .page-heading {
