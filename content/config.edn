@@ -1,12 +1,12 @@
 {:archive-group-format         "yyyy MMMM"
- :author                       "Bob Bobbert"
+ :author                       "Robero La Greca"
  :author-root-uri              "authors-output"
  :blocks-per-preview           2
  :blog-prefix                  ""
  :clean-urls                   :trailing-slash
  :collapse-subdirs?            false
  :debug?                       false
- :description                  "This blog is awesome"
+ :description                  ""
  :description-include-elements #{:h1 :h2 :h3 :h4 :h5 :h6 :p}
  :disqus-shortname             ""
  :disqus?                      false
@@ -28,7 +28,7 @@
  :rss-name                     "feed.xml"
  :sass-path                    "sass"
  :sass-src                     []
- :site-title                   "My Awesome Blog"
- :site-url                     "http://blogawesome.com/"
+ :site-title                   "Roberto La Greca"
+ :site-url                     "https://rflagreca.me"
  :tag-root-uri                 "tags-output"
  :theme                        "blue"}
