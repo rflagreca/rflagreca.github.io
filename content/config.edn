@@ -1,34 +1,34 @@
-{:archive-group-format         "yyyy MMMM"
- :author                       "Robero La Greca"
- :author-root-uri              "authors-output"
- :blocks-per-preview           2
- :blog-prefix                  ""
- :clean-urls                   :trailing-slash
- :collapse-subdirs?            false
- :debug?                       false
- :description                  ""
+{:archive-group-format "yyyy MMMM"
+ :author               "Roberto La Greca"
+ :author-root-uri      "authors-output"
+ :blocks-per-preview   2
+ :blog-prefix          ""
+ :clean-urls           :trailing-slash
+ :collapse-subdirs?    false
+ :debug?               false
+ :description          ""
  :description-include-elements #{:h1 :h2 :h3 :h4 :h5 :h6 :p}
- :disqus-shortname             ""
- :disqus?                      false
- :hide-future-posts?           true
- :ignored-files                [#"\.#.*" #".*\.swp$"]
- :keep-files                   [".git"]
- :klipse                       {}
- :page-root                    "pages"
- :page-root-uri                "pages-output"
- :post-date-format             "yyyy-MM-dd"
- :post-root                    "posts"
- :post-root-uri                "posts-output"
- :posts-per-page               5
- :previews?                    false
- :public-dest                  "docs"
- :recent-posts                 3
- :resources                    ["img"]
- :rss-filters                  ["cryogen"]
- :rss-name                     "feed.xml"
- :sass-path                    "sass"
- :sass-src                     []
- :site-title                   "Roberto La Greca"
- :site-url                     "https://rflagreca.me"
- :tag-root-uri                 "tags-output"
- :theme                        "blue"}
+ :disqus-shortname     ""
+ :disqus?              false
+ :hide-future-posts?   true
+ :ignored-files        [#"\.#.*" #".*\.swp$"]
+ :keep-files           [".git"]
+ :klipse               {}
+ :page-root            "pages"
+ :page-root-uri        "pages-output"
+ :post-date-format     "yyyy-MM-dd"
+ :post-root            "posts"
+ :post-root-uri        "posts-output"
+ :posts-per-page       5
+ :previews?            false
+ :public-dest          "docs"
+ :recent-posts         3
+ :resources            ["img"]
+ :rss-filters          ["cryogen"]
+ :rss-name             "feed.xml"
+ :sass-path            "sass"
+ :sass-src             []
+ :site-title           "Roberto La Greca"
+ :site-url             "https://rflagreca.me"
+ :tag-root-uri         "tags-output"
+ :theme                "blue"}
